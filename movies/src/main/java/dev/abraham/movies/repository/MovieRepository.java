@@ -1,6 +1,6 @@
 package dev.abraham.movies.repository;
 
-import dev.abraham.movies.Movie;
+import dev.abraham.movies.model.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package dev.abraham.movies;
+package dev.abraham.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,7 +20,7 @@ public class Movie {
     private String imdbId;
     private String title;
     private String releaseDate;
-    private String trailerUrl;
+    private String trailerLink;
     private String poster;
     private List<String> genres;
     private List<String> backdrops;

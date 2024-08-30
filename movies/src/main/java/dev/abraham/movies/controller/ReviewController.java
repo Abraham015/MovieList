@@ -1,7 +1,7 @@
 package dev.abraham.movies.controller;
 
-import dev.abraham.movies.Review;
-import dev.abraham.movies.ReviewService;
+import dev.abraham.movies.model.Review;
+import dev.abraham.movies.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

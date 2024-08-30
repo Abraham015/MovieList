@@ -1,8 +1,7 @@
 package dev.abraham.movies.controller;
 
-import dev.abraham.movies.Movie;
-import dev.abraham.movies.MovieService;
-import org.bson.types.ObjectId;
+import dev.abraham.movies.model.Movie;
+import dev.abraham.movies.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

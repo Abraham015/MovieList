@@ -1,5 +1,6 @@
-package dev.abraham.movies;
+package dev.abraham.movies.service;
 
+import dev.abraham.movies.model.Movie;
 import dev.abraham.movies.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
